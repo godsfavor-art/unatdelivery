@@ -47,19 +47,19 @@ const UNDTrackingHeader: React.FC = () => {
       {/* Top navigation */}
       <div className="bg-white border-b">
         <div className="container mx-auto px-4 py-2 flex justify-end space-x-4 text-sm">
-          <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="text-gray-700 hover:underline">
+          <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="text-gray-700 hover:underline">
             English
           </a>
-          <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="text-gray-700 hover:underline">
+          <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="text-gray-700 hover:underline">
             Location
           </a>
-          <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="text-gray-700 hover:underline">
+          <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="text-gray-700 hover:underline">
             Support
           </a>
-          <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="text-gray-700 hover:underline">
+          <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="text-gray-700 hover:underline">
             Informed Delivery
           </a>
-          <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="text-gray-700 hover:underline">
+          <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="text-gray-700 hover:underline">
             Register / Sign In
           </a>
         </div>
@@ -88,22 +88,22 @@ const UNDTrackingHeader: React.FC = () => {
 
           {/* Navigation Links */}
           <nav className="flex">
-            <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="px-4 py-2 hover:text-red-600">
+            <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="px-4 py-2 hover:text-red-600">
               Send
             </a>
-            <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="px-4 py-2 hover:text-red-600">
+            <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="px-4 py-2 hover:text-red-600">
               Receive
             </a>
-            <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="px-4 py-2 hover:text-red-600">
+            <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="px-4 py-2 hover:text-red-600">
               Shop
             </a>
-            <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="px-4 py-2 hover:text-red-600">
+            <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="px-4 py-2 hover:text-red-600">
               Send
             </a>
-            <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="px-4 py-2 hover:text-red-600">
+            <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="px-4 py-2 hover:text-red-600">
               Receive
             </a>
-            <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="px-4 py-2 hover:text-red-600">
+            <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="px-4 py-2 hover:text-red-600">
               Shop
             </a>
           </nav>
@@ -117,11 +117,11 @@ const UNDTrackingHeader: React.FC = () => {
             UND Tracking <sup className="text-xs">®</sup>
           </h1>
           <div className="flex items-center space-x-2">
-            <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="text-red-600 font-medium underline">
+            <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="text-red-600 font-medium underline">
               Tracking
             </a>
             <span>/</span>
-            <a href="/packagetrack.php?mytrack=UND8317198281928BP" className="text-blue-900 hover:underline">
+            <a href="?packagetrack.php?mytrack=UND8317198281928BP" className="text-blue-900 hover:underline">
               FAQs
             </a>
           </div>

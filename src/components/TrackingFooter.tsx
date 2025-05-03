@@ -22,16 +22,16 @@ const TrackingFooter: React.FC = () => {
               <h4 className="font-semibold mb-2">HELPFUL LINKS</h4>
               <ul className="space-y-1">
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Contact Us</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Contact Us</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Site Index</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Site Index</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">FAQs</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">FAQs</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Feedback</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Feedback</a>
                 </li>
               </ul>
             </div>
@@ -39,22 +39,22 @@ const TrackingFooter: React.FC = () => {
               <h4 className="font-semibold mb-2">ON ABOUT UND</h4>
               <ul className="space-y-1">
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">About UND Home</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">About UND Home</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Newsroom</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Newsroom</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">UND Service Updates</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">UND Service Updates</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Forms & Publications</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Forms & Publications</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Government Services</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Government Services</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Careers</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Careers</a>
                 </li>
               </ul>
             </div>
@@ -62,22 +62,22 @@ const TrackingFooter: React.FC = () => {
               <h4 className="font-semibold mb-2">OTHER UND SITES</h4>
               <ul className="space-y-1">
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Business Customer Gateway</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Business Customer Gateway</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Postal Inspectors</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Postal Inspectors</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Inspector General</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Inspector General</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Postal Explorer</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Postal Explorer</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">National Postal Museum</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">National Postal Museum</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Resources for Developers</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Resources for Developers</a>
                 </li>
               </ul>
             </div>
@@ -85,18 +85,18 @@ const TrackingFooter: React.FC = () => {
               <h4 className="font-semibold mb-2">LEGAL INFORMATION</h4>
               <ul className="space-y-1">
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">Terms of Use</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">Terms of Use</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">FOIA</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">FOIA</a>
                 </li>
                 <li>
-                  <a href="/packagetrack.php?mytrack=UND8317198281928BP">No FEAR Act/EEO Contacts</a>
+                  <a href="?packagetrack.php?mytrack=UND8317198281928BP">No FEAR Act/EEO Contacts</a>
                 </li>
               </ul>
             </div>
