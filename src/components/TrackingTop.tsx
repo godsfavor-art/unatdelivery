@@ -24,29 +24,42 @@ const UNDTrackingHeader: React.FC = () => {
   };
 
   const [showTextUpdates, setShowTextUpdates] = useState(false);
-    const [showTravelHistory, setShowTravelHistory] = useState(true);
-  
-    const trackingEvents: TrackingEvent[] = [
-      {
-        status: "Package Sent-Out",
-        date: "May 03 Saturday, 2025",
-        time: "07:42AM",
-        location: "126 N commerce way, Bethelehem PA 18017",
-      },
-      {
-        status: "Package On-Hold",
-        date: "May 02 Friday, 2025",
-        time: "07:23PM",
-        location: "Utica, NY 13501, USA",
-      },
-      {
-        status: "Shipment Information Recieved",
-        date: "May 02 Friday, 2025",
-        time: "06:30PM",
-        location: "New York, NY 10009, USA",
-        from: "New York, NY 10009, USA",
-      },
-    ];
+  const [showTravelHistory, setShowTravelHistory] = useState(true);
+
+  const activeStatus = {
+    status: "Shipped For Delivery",
+    date: "May 04 Sunday, 2025",
+    time: "14:09PM",
+    location: "Mooresburg PA 18074, USA",
+  };
+
+  const trackingEvents: TrackingEvent[] = [
+    {
+      status: "Shipped For Delivery",
+      date: "May 04 Sunday, 2025",
+      time: "14:09PM",
+      location: "Mooresburg PA 18074, USA",
+    },
+    {
+      status: "Package Sent-Out",
+      date: "May 03 Saturday, 2025",
+      time: "07:42AM",
+      location: "126 N commerce way, Bethelehem PA 18017, USA",
+    },
+    {
+      status: "Package On-Hold",
+      date: "May 02 Friday, 2025",
+      time: "07:23PM",
+      location: "Utica, NY 13501, USA",
+    },
+    {
+      status: "Shipment Information Recieved",
+      date: "May 02 Friday, 2025",
+      time: "06:30PM",
+      location: "New York, NY 10009, USA",
+      from: "New York, NY 10009, USA",
+    },
+  ];
 
   return (
     <div className="font-sans">
@@ -272,12 +285,12 @@ const UNDTrackingHeader: React.FC = () => {
                   </div>
                 </div>
                 <div className="ml-2">
-                  <p className="font-medium">Package Sent-Out</p>
+                  <p className="font-medium">{activeStatus.status}</p>
                   <p className="text-gray-600 text-sm">
-                    April 24 Thursday, 2025 AT 07:42AM
+                    {activeStatus.date} AT {activeStatus.time}
                   </p>
                   <p className="text-gray-600 text-sm uppercase">
-                    126 N commerce way, Bethelehem PA 18017
+                    {activeStatus.location}
                   </p>
                 </div>
               </div>
