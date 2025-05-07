@@ -27,13 +27,19 @@ const UNDTrackingHeader: React.FC = () => {
   const [showTravelHistory, setShowTravelHistory] = useState(true);
 
   const activeStatus = {
-    status: "Shipped For Delivery",
-    date: "May 04 Sunday, 2025",
-    time: "14:09PM",
-    location: "Mooresburg PA 18074, USA",
+    status: "Arrived in",
+    date: "May 07 Wednesday, 2025",
+    time: "10:48AM",
+    location: "Danville, PA 18074, USA",
   };
 
   const trackingEvents: TrackingEvent[] = [
+    {
+      status: "Arrived in",
+      date: "May 07 Wednesday, 2025",
+      time: "10:48AM",
+      location: "Danville, PA 18074, USA",
+    },
     {
       status: "Shipped For Delivery",
       date: "May 04 Sunday, 2025",
