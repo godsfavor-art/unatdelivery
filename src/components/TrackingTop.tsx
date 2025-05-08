@@ -26,14 +26,20 @@ const UNDTrackingHeader: React.FC = () => {
   const [showTextUpdates, setShowTextUpdates] = useState(false);
   const [showTravelHistory, setShowTravelHistory] = useState(true);
 
-  const activeStatus = {
-    status: "Arrived in",
-    date: "May 07 Wednesday, 2025",
-    time: "10:48AM",
-    location: "Danville, PA 18074, USA",
-  };
+  // const activeStatus = {
+  //   status: "Arrived in",
+  //   date: "May 08 Thursday, 2025",
+  //   time: "09:12AM",
+  //   location: "Akron, OH 44301, USA",
+  // };
 
   const trackingEvents: TrackingEvent[] = [
+    {
+      status: "Arrived in",
+      date: "May 08 Thursday, 2025",
+      time: "09:12AM",
+      location: "Akron, OH 44301, USA",
+    },
     {
       status: "Arrived in",
       date: "May 07 Wednesday, 2025",
@@ -291,12 +297,12 @@ const UNDTrackingHeader: React.FC = () => {
                   </div>
                 </div>
                 <div className="ml-2">
-                  <p className="font-medium">{activeStatus.status}</p>
+                  <p className="font-medium">{trackingEvents[0].status}</p>
                   <p className="text-gray-600 text-sm">
-                    {activeStatus.date} AT {activeStatus.time}
+                    {trackingEvents[0].date} AT {trackingEvents[0].time}
                   </p>
                   <p className="text-gray-600 text-sm uppercase">
-                    {activeStatus.location}
+                    {trackingEvents[0].location}
                   </p>
                 </div>
               </div>
@@ -305,12 +311,12 @@ const UNDTrackingHeader: React.FC = () => {
 
           {/* Progress Bar */}
           <div className="h-2 bg-gray-300 mb-8">
-            <div className="flex h-full">
-              <div className="bg-red-600 w-1/4"></div>
-              <div className="bg-red-600 w-1/4"></div>
-              <div className="bg-red-600 w-1/4"></div>
-              <div className="bg-gray-400 w-1/4"></div>
-            </div>
+            <div className="w-[93%] bg-red-600 h-full"></div>
+            {/* <div className="flex h-full">
+              <div className="bg-red-600 w-1/4 border-r-4 border-blue-500"></div>
+              <div className="bg-red-600 w-1/4 border-r-4 border-blue-500"></div>
+              <div className="bg-red-600 w-1/4 border-r-4 border-blue-500"></div>
+            </div> */}
           </div>
 
           {/* Text & Email Updates Section */}
