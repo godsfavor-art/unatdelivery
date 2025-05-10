@@ -36,6 +36,12 @@ const UNDTrackingHeader: React.FC = () => {
   const trackingEvents: TrackingEvent[] = [
     {
       status: "Arrived in",
+      date: "May 10 Saturday, 2025",
+      time: "05:57AM",
+      location: "Columbus, OH 43004, USA",
+    },
+    {
+      status: "Arrived in",
       date: "May 08 Thursday, 2025",
       time: "09:12AM",
       location: "Akron, OH 44301, USA",
